@@ -21,8 +21,7 @@ public class ContaTerminal {
         * @param numeroConta este é o segundo parâmetro do método
         */
         
-        
-        /*
+         /*
           Classe Scanner permite que o usuário insira dados 
           criando o objeto scanner
         */  
@@ -39,6 +38,6 @@ public class ContaTerminal {
         
         System.out.println("Olá " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + " , conta " + numeroConta + " e seu saldo de " + saldoConta + " já está disponível para saque :)");
         
-	}
+	  }
   
 }
