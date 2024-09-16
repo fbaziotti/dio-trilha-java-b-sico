@@ -1,0 +1,15 @@
+public class SistemaCadastroConstrutores {
+	public static void main(String[] args) {
+		//criamos uma pessoa no sistema
+		PessoaConstrutores marcos = new PessoaConstrutores("123", "MARCOS");
+		
+		//definimos o endereço de marcos
+		marcos.setEndereco("RUA DAS MARIAS");
+		
+		//e como definir o nome e cpf do marcos ?
+		
+		//imprimindo o marcos sem o nome e cpf
+		
+		System.out.println(marcos.getNome() + "-" + marcos.getCpf());
+	}
+}
